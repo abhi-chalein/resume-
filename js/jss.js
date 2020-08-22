@@ -17,7 +17,7 @@ var ans1=  prompt("Glad you are interested.Give your phone number.we will contac
 alert(" I got your number "+ans.toUpperCase()+" "+ans1+ " . I will soon contact you.");
 }
 function notint(){
-  var audio=new Audio("/Users/abhishek/Downloads/public/images/Thankyou.mp3");
+  var audio=new Audio("images/Thankyou.mp3");
   audio.play();
   alert("thank you for your time "+ans.toUpperCase()+" .");
 }
